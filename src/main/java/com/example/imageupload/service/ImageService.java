@@ -24,16 +24,16 @@ import java.util.Date;
 public class ImageService {
     private AmazonS3 s3Client;
 
-    @Value("${AKIA5EFL4DWU5LSLWZ4T}")
+    @Value("$}")
     private String accessKey;
 
-    @Value("${sbFnfgFOfo1OeQQf3kSA0KG/Xd5b1YHGgmtx8uox}")
+    @Value("$}")
     private String secretKey;
 
-    @Value("${arn:aws:s3:::kyusoo-bucket}")
+    @Value("$}")
     private String bucket;
 
-    @Value("${ap-northeast-2}")
+    @Value("${}")
     private String region;
 
     @PostConstruct
